@@ -1,0 +1,268 @@
+h1, h2, h3, a{
+  font-family: "Lucida Handwriting";
+}
+p{
+  font-family: "verdana";
+}
+body{
+  background-color: #b4b4b4;
+}
+header{
+  background-color: #569099;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header h1{
+  color: white;
+  display: inline-block;
+}
+header img{
+  float: right;
+  margin-right: 35px;
+}
+.banner{
+  position: relative;
+  background-color: #95c6cc;
+  margin-right: -16px;
+  left: -8px;
+}
+.banner img{
+  width: 100%;
+}
+.filler{
+  padding: 0;
+}
+.about-intro{
+  background-color: #b4b4b4;
+  padding-bottom: 400px;
+  padding-top: 24px;
+  max-width: 100%;
+  padding-left: 24px;
+  margin-left: -18px;
+  margin-right: -8px;
+}
+.about-intro img{
+  width: 270px;
+  float: right;
+  margin-right: 24px;
+  position: relative;
+  border: 8px solid gray;
+  border-radius: 20px;
+}
+.about-intro p{
+  float: left;
+  width: 70%;
+}
+.about-intro ul{
+  float: left;
+  width: 70%;
+}
+.about-intro li{
+  font-size: 18px;
+  padding: 4px;
+}
+.about-past{
+  padding-bottom: 380px;
+  padding-top: 24px;
+  background-color: white;
+}
+.about-past p{
+  float: right;
+  width: 70%;
+  margin-right: 24px;
+}
+.about-past img{
+  position: relative;
+  float: left;
+  width: 270px;
+  margin-left: 24px;
+  border: 8px solid gray;
+  border-radius: 20px;
+  top: 32px;
+}
+.about-past h2{
+  float: right;
+  margin-right: 30px;
+}
+.github{
+  background-color: #b4b4b4;
+  padding-bottom: 160px;
+  padding-top: 24px;
+  max-width: 100%;
+  padding-left: 24px;
+  margin-left: -18px;
+  margin-right: -20px;
+}
+.github img{
+  width: 180px;
+  float: right;
+  margin-right: 24px;
+  position: relative;
+  top: -60px;
+}
+.github p{
+  float: left;
+  width: 70%;
+}
+.github p a{
+  font-family: "verdana";
+}
+nav{
+  background-color: #95c6cc;
+  padding: 18px;
+  position: sticky;
+  top: 127px;
+  max-width: 100%;
+  margin-left: -18px;
+  margin-right: -8px;
+  z-index: 2;
+}
+nav ul{
+  white-space: nowrap;
+}
+nav li{
+  width: 12%;
+  display: inline-block;
+}
+nav li a{
+  text-decoration: none;
+  padding: 6px;
+  background-color: white;
+  color: #383838;
+  border: 5px solid white;
+  border-radius: 30px;
+  font-size: 18px;
+}
+footer{
+  position: relative;
+  background: black;
+  font-size: 12px;
+  color: #b4b4b4;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  left: -8px;
+  bottom: -8px;
+  padding-right: 11px;
+}
+@media screen and (max-width: 1200px){
+  nav li{
+    width: 20%;
+  }
+  nav li a{
+    font-size: 16px;
+  }
+  .filler{
+    padding-bottom: 100px;
+  }
+  .about-intro{
+    padding-bottom: 24px;
+  }
+  .about-intro h2{
+    margin-left: 12px;
+    float: none;
+  }
+  .about-intro img{
+    float: none;
+    position: relative;
+    left: 10px;
+  }
+  .about-intro p{
+    float: none;
+    width: 97%;
+    margin-left: 12px;
+  }
+  .about-past{
+    padding-bottom: 24px;
+  }
+  .about-past h2{
+    margin-left: 12px;
+    float: none;
+  }
+  .about-past img{
+    float: none;
+    position: relative;
+    top: -10px;
+  }
+  .about-past p{
+    float: none;
+    width: 97%;
+    margin-left: 12px;
+  }
+  .github{
+    padding-bottom: 24px;
+  }
+  .github h2{
+    margin-left: 12px;
+    float: none;
+  }
+  .github img{
+    position: relative;
+    top: 0;
+    float: none;
+  }
+  .github p{
+    margin-left: 12px;
+    float: none;
+    width: 97%;
+  }
+}
+
+
+@media screen and (max-width: 700px){
+  .banner{
+    padding-bottom: 100px;
+  }
+  .banner img{
+    display: none;
+  }
+  header img{
+    display: none;
+  }
+  .filler{
+    padding-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 560px){
+  header h1{
+    font-size: 1.3em;
+    padding: 20px;
+  }
+  .banner{
+    padding-bottom: 120px;
+  }
+  nav{
+    top: 127px;
+  }
+  nav li{
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 420px){
+  header h1{
+    font-size: 1em;
+    padding: 24px;
+  }
+  .banner{
+    padding-bottom: 120px;
+  }
+  .filler{
+    padding-bottom: 370px;
+  }
+  nav{
+    top: 127px;
+  }
+  nav li{
+    width: 33%;
+  }
+  nav li a{
+    font-size: 12px;
+  }
+}
