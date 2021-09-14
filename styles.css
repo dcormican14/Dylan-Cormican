@@ -63,10 +63,15 @@ header img{
   width: 70%;
 }
 .about-intro li{
-  font-family: "verdana"
   font-size: 18px;
   padding: 4px;
 }
+
+.about-intro li a{
+  font-family: "verdana";
+  font-size: 18px;
+}
+
 .about-past{
   padding-bottom: 380px;
   padding-top: 24px;
