@@ -4,7 +4,7 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  padding: 24px 0 24px 0;
+  padding: 14px 0 16px 0;
   width: 100%;
 }
 header .titleText{
@@ -17,7 +17,7 @@ header a{
   margin-right: auto;
   color: #c6d4ed;
   font-family: "Brush Script MT";
-  font-size: 48px;
+  font-size: 62px;
 
 }
 nav{
@@ -43,13 +43,14 @@ nav li{
 }
 nav .navBarItem{
   text-decoration: none;
-  padding: 0 4px 0 4px;
+  padding: 4px 6px 4px 6px;
   margin: 0 4px 0 4px;
+  border-radius: 5px;
   color: white;
 }
 nav .navBarItemActive{
   text-decoration: none;
-  padding: 0 2px 0 2px;
+  padding: 2px 4px 2px 4px;
   margin: 0 4px 0 4px;
   color: white;
   border: 2px solid white;
