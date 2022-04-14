@@ -1,0 +1,22 @@
+main .socialMediaWrapper{
+  display: flex;
+}
+.subFooterWrapper{
+  display: flex;
+}
+.iconWrapper{
+  white-space: nowrap;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iconWrapper li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 40px 0 40px;
+  padding: 4px;
+}
+.iconWrapper li a img{
+  max-width: 48px;
+}

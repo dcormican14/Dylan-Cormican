@@ -1,0 +1,57 @@
+header{
+  z-index: 1;
+  background-color: #16171b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px 0 24px 0;
+  width: 100%;
+}
+header .titleText{
+  display: flex;
+}
+header a{
+  text-decoration: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c6d4ed;
+  font-family: "Brush Script MT";
+  font-size: 48px;
+
+}
+nav{
+  background-color: #555555;
+  position: sticky;
+  top: 106px;
+  max-width: 100%;
+  padding: 20px;
+}
+nav .navBarMenu{
+  display: flex;
+}
+nav ul{
+  white-space: nowrap;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav li{
+  display: inline-block;
+  font-size: 24px;
+}
+nav .navBarItem{
+  text-decoration: none;
+  padding: 0 4px 0 4px;
+  margin: 0 4px 0 4px;
+  color: white;
+}
+nav .navBarItemActive{
+  text-decoration: none;
+  padding: 0 2px 0 2px;
+  margin: 0 4px 0 4px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
