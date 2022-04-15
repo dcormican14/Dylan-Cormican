@@ -1,12 +1,12 @@
 header a:hover{
   transition: all 1.0s ease;
-  color: white;
+  color: #e5ecea;
 }
 nav .navBarItem:hover{
-  background-color: #16171b;
+  background-color: #292826;
 }
 nav .navBarItemActive:hover{
-  background-color: #16171b;
+  background-color: #292826;
 }
 .iconWrapper li a img:hover{
   margin: 14px;

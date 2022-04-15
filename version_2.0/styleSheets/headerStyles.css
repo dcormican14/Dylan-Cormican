@@ -1,6 +1,6 @@
 header{
   z-index: 1;
-  background-color: #16171b;
+  background-color: #292826;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,13 +15,13 @@ header a{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: #c6d4ed;
+  color: #ad8961;
   font-family: "Brush Script MT";
   font-size: 62px;
 
 }
 nav{
-  background-color: #555555;
+  background-color: #ad8961;
   position: sticky;
   top: 106px;
   max-width: 100%;
@@ -46,13 +46,13 @@ nav .navBarItem{
   padding: 4px 6px 4px 6px;
   margin: 0 4px 0 4px;
   border-radius: 5px;
-  color: white;
+  color: #e5ecea;
 }
 nav .navBarItemActive{
   text-decoration: none;
   padding: 2px 4px 2px 4px;
   margin: 0 4px 0 4px;
-  color: white;
-  border: 2px solid white;
+  color: #e5ecea;
+  border: 2px solid #e5ecea;
   border-radius: 5px;
 }
