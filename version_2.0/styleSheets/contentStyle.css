@@ -26,10 +26,11 @@ main .underline{
 }
 main .pictureWrapper{
   padding-right: 12px;
+  display: flex;
 }
 main ol li img{
   display: block;
-  max-height: 200px;
+  width: 200px;
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 6px;

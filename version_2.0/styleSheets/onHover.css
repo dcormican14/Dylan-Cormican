@@ -3,10 +3,10 @@ header a:hover{
   color: #e5ecea;
 }
 nav .navBarItem:hover{
-  background-color: #292826;
+  background-color: #96744e;
 }
 nav .navBarItemActive:hover{
-  background-color: #292826;
+  background-color: #96744e;
 }
 .iconWrapper li a img:hover{
   margin: 14px;

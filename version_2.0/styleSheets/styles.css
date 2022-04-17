@@ -6,6 +6,9 @@
 p{
   color: #292826;
 }
+h1{
+  cursor: default;
+}
 body{
   background-color: #add8e6;
 }

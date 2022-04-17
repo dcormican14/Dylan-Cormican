@@ -36,6 +36,7 @@ nav ul{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  cursor: default;
 }
 nav li{
   display: inline-block;

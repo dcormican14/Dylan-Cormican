@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styleSheets/styles.css">
     <link rel="stylesheet" href="styleSheets/headerStyles.css">
     <link rel="stylesheet" href="styleSheets/contentStyle.css">
     <link rel="stylesheet" href="styleSheets/icons.css">
+    <link rel="stylesheet" href="styleSheets/onHover.css">
+
     <link rel="icon" href="../img/whale.png" type="image/x-icon">
     <title>Home | Dylan Cormican</title>
   </head>
@@ -41,23 +44,87 @@
         <main>
           <div class="postWrapper" id="mainPosts">
             <ol>
+
               <li class="basicPosts">
                 <div class="pictureWrapper">
-                  <img src="../img/seniorphoto.jpg" alt="postOnePic">
+                  <img src="../img/raspberryPi.png" alt="postOnePic">
                 </div>
                 <div class="contentWrapper" id="mainPostContent">
-                  <h1 class="titleText">Example Title</h1>
+                  <h1 class="titleText">Raspberry Pi Communication</h1>
                   <div class="underline"></div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.</p>
+                  <p>This side project went from a small inquiry to a massive
+                  undertaking as I became more and more interested in how to
+                  send data over a network. Essentially, I was able to access
+                  multiple Raspberry Pis, and the intention was to use real-time
+                  data to analyze what is happening in a room.</p>
+                  <br>
+                  <p>Naturally, the project appeared to be a simple one, but after
+                  doing some research and scouring some docs, I figured out that
+                  my goal was slightly more difficult than I had first thought.
+                  Despite the challenge, I was still able to write two classes
+                  for each of the Pis to run in the terminal. My client class
+                  used Python’s socket and pickle libraries to turn the dictionary
+                  into a byte stream and send it to the corresponding server
+                  class, which was set up to listen on the network and decrypt
+                  the received data. Once that was finished, I sent some data
+                  over our home internet to one of the Pis, and that Pi was able
+                  to run some calculations on the data. </p>
+                  <br>
+                  <p>While being a more intensive project than intended, I enjoyed
+                  every minute of it and was excited to see some programming that
+                  I made interact with the world. </p>
                 </div>
               </li>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="../img/safetyNET.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Safety NET</h1>
+                  <div class="underline"></div>
+                  <p>Safety NET is a web application that allows first responders
+                  at Colorado School of Mines to communicate with students and
+                  professors on campus, and it is designed to be implemented on
+                  top of the existing Mines alert system for ease of use. The
+                  program is essentially a map generation tool that first
+                  responders can use, in the event of an emergency, to warn
+                  students of where to avoid and where safe areas are on campus.</p>
+                  <br>
+                  <p>Even though this project was developed for a class at CSM, my
+                  colleagues and I truly went above and beyond expectations
+                  with the implementation of our design. We spent many hours
+                  researching web development, URL generation, campus maps,
+                  and talking to stakeholders to arrive at our solution, and
+                  at the end of the semester, our hard work was rewarded with
+                  the satisfaction of earning first place in our section during
+                  the design competition.</p>
+                </div>
+              </li>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="../img/crypto.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Cryptocurrency Bot</h1>
+                  <div class="underline"></div>
+                  <p>After learning about cryptocurrencies and investing, I
+                  became curious about implementing a trading bot that would
+                  look at real-world market data and purchase/sell coins and
+                  stocks based on an analysis of the incoming data.</p>
+                  <br>
+                  <p>Crypto bot is a simple program that looks at certain markers
+                  like moving averages and support lines and attempts to time
+                  market trades. Naturally, for real-time data, I had to tie
+                  into a web API and access some data from the FTX exchange
+                  and other cryptocurrency exchanges. This was the largest
+                  part of the project, as I have never used an API before,
+                  but they are certainly useful, and there may be more projects
+                  involving APIs to come. </p>
+                </div>
+              </li>
+
             </ol>
           </div>
 
@@ -65,15 +132,15 @@
             <div class="subFooterWrapper">
               <ul class="iconWrapper" id="footerIconWrapper">
                 <li>
-                  <a href="./index.html" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/dcormican14" target="_blank" rel="noopener noreferrer">
                   <img src="../img/github2.png" alt="githubIcon"></a>
                 </li>
                 <li>
-                  <a href="./index.html" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/dylan_cormican/" target="_blank" rel="noopener noreferrer">
                     <img src="../img/instagram2.png" alt="instagramIcon"></a>
                 </li>
                 <li>
-                  <a href="./index.html" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/dylan-cormican-137b341b6/" target="_blank" rel="noopener noreferrer">
                   <img src="../img/linkedin2.png" alt="linkedInIcon"></a>
                 </li>
               </ul>
