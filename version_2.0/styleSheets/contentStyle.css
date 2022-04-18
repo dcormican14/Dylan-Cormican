@@ -16,6 +16,13 @@ main .titleText{
   color: #292826;
   font-size: 22px;
 }
+main .subtitleText{
+  color: #292826;
+  font-size: 16px;
+}
+main .resumeContent{
+  padding-left: 6px;
+}
 main .underline{
   background-color: #ad8961;
   height: 2px;

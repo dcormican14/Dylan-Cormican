@@ -44,16 +44,18 @@ nav li{
 }
 nav .navBarItem{
   text-decoration: none;
-  padding: 4px 6px 4px 6px;
-  margin: 0 4px 0 4px;
+  padding: 2px 4px 2px 4px;
+  margin: 0 6px 0 6px;
   border-radius: 5px;
   color: #e5ecea;
+  border-radius: 5px;
 }
 nav .navBarItemActive{
   text-decoration: none;
   padding: 2px 4px 2px 4px;
-  margin: 0 4px 0 4px;
+  margin: 0 6px 0 6px;
   color: #e5ecea;
-  border: 2px solid #e5ecea;
+  /* border: 2px solid #e5ecea; */
+  background-color: #bda080;
   border-radius: 5px;
 }

@@ -1,0 +1,54 @@
+@media screen and (max-width: 650px){
+  nav li a{
+    font-size: 17px;
+  }
+  nav li .navBarItem{
+    margin: 0;
+  }
+  nav li .navBarItemActive{
+    margin: 0;
+  }
+  nav.navigation{
+    padding: 6px 0 10px 0;
+  }
+  .footerWrapper .iconWrapper img{
+    margin: 6px;
+    width: 38px;
+  }
+  .footerWrapper .iconWrapper li{
+    margin: 0 24px 0 24px;
+  }
+  .footerWrapper .iconWrapper li a img:hover{
+    margin: 3px;
+    width: 44px;
+  }
+  p{
+    font-size: 12px !important;
+  }
+  main .subtitleText{
+    font-size: 14px !important;
+  }
+  main .titleText{
+    font-size: 17px !important;
+  }
+  main ol li{
+    display: block !important;
+  }
+  main ol li img{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px){
+  .footerWrapper .iconWrapper li{
+    margin: 0 12px 0 12px;
+  }
+  header a{
+    font-size: 52px !important;
+  }
+  nav{
+    top: 94px !important;
+  }
+  nav li a{
+    font-size: 15px;
+  }
+}
