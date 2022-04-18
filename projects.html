@@ -1,79 +1,158 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./img/leaf.png" type="image/x-icon">
-    <title>Dylan Cormican</title>
+
+    <link rel="stylesheet" href="styleSheets/window.css">
+    <link rel="stylesheet" href="styleSheets/styles.css">
+    <link rel="stylesheet" href="styleSheets/headerStyles.css">
+    <link rel="stylesheet" href="styleSheets/contentStyle.css">
+    <link rel="stylesheet" href="styleSheets/icons.css">
+    <link rel="stylesheet" href="styleSheets/onHover.css">
+
+    <link rel="icon" href="./img/whale.png" type="image/x-icon">
+    <title>Home | Dylan Cormican</title>
   </head>
   <body>
-    <!--Header for the Website-->
-    <header>
-      <h1>Dylan Cormican's Web Page</h1>
-      <img src="./img/leaf.png" alt="leaf">
-    </header>
+    <div class="wrapper" id="pageWrapper">
+      <div class="wrapper" id="specificPageWrapper">
 
-    <section class = "banner">
-      <img src="./img/succulents.jpg" alt="succulents">
-    </section>
-    <!--main navigation for the site-->
-    <nav class="navigation-main">
-      <ul>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="index.html">About</a></li>
-      </ul>
-    </nav>
+        <header class="banner" id="mainBanner">
 
-    <!--github portfolio with link.-->
-    <div class = "github">
-      <h2>GitHub</h2>
-      <img src="./img/github.png" alt="github">
-      <p>Feel free to look at my GitHub for more information regarding my projects, large assignments and personal endeavors.
-        Many of them are posted there, and there will be more to come as I continue my journey at Mines.</p>
-      <p>You can view my GitHub portfolio <a target="_blank" href="https://github.com/dcormican14">here</a>.</p>
+          <div class="wrapper" id="imageWrapper">
+            <div class="wrapper" id="specificImageWrapper">
+              <h1 class="titleText">
+                <a aria-current="page" class="header" href="./index.html">Dylan Cormican</a>
+              </h1>
+              <!-- <a aria-current="page" class="header" href="./index.html"><img src="../img/leaf.png" alt="profilePicture"></a> -->
+            </div>
+          </div>
+        </header>
+
+        <nav class="navigation" id="navBar">
+          <div class="navBarMenu">
+            <ul class="navBarCollection">
+              <li><a class="navBarItem" href="./index.html"><strong>Home</strong></a></li>
+              <li><a class="navBarItem" href="./blog.html"><strong>Blog</strong></a></li>
+              <li><a class="navBarItemActive" href="./projects.html"><strong>Projects</strong></a></li>
+              <li><a class="navBarItem" href="./resume.html"><strong>Resume</strong></a></li>
+              <li><a class="navBarItem" href="./contact.html"><strong>Contact</strong></a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <main>
+          <div class="postWrapper" id="mainPosts">
+            <ol>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="./img/raspberry.jpeg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Raspberry Pi Communication</h1>
+                  <div class="underline"></div>
+                  <p>This side project went from a small inquiry to a massive
+                  undertaking as I became more and more interested in how to
+                  send data over a network. Essentially, I was able to access
+                  multiple Raspberry Pis, and the intention was to use real-time
+                  data to analyze what is happening in a room.</p>
+                  <br>
+                  <p>Naturally, the project appeared to be a simple one, but after
+                  doing some research and scouring some docs, I figured out that
+                  my goal was slightly more difficult than I had first thought.
+                  Despite the challenge, I was still able to write two classes
+                  for each of the Pis to run in the terminal. My client class
+                  used Python’s socket and pickle libraries to turn the dictionary
+                  into a byte stream and send it to the corresponding server
+                  class, which was set up to listen on the network and decrypt
+                  the received data. Once that was finished, I sent some data
+                  over our home internet to one of the Pis, and that Pi was able
+                  to run some calculations on the data. </p>
+                  <br>
+                  <p>While being a more intensive project than intended, I enjoyed
+                  every minute of it and was excited to see some programming that
+                  I made interact with the world. </p>
+                </div>
+              </li>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="./img/safetyNET.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Safety NET</h1>
+                  <div class="underline"></div>
+                  <p>Safety NET is a web application that allows first responders
+                  at Colorado School of Mines to communicate with students and
+                  professors on campus, and it is designed to be implemented on
+                  top of the existing Mines alert system for ease of use. The
+                  program is essentially a map generation tool that first
+                  responders can use, in the event of an emergency, to warn
+                  students of where to avoid and where safe areas are on campus.</p>
+                  <br>
+                  <p>Even though this project was developed for a class at CSM, my
+                  colleagues and I went above and beyond expectations
+                  with the implementation of our design. We spent many hours
+                  researching web development, URL generation, campus maps,
+                  and talking to stakeholders to arrive at our solution, and
+                  at the end of the semester, our hard work was rewarded with
+                  the satisfaction of earning first place in our section during
+                  the design competition.</p>
+                </div>
+              </li>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="./img/crypto.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Cryptocurrency Bot</h1>
+                  <div class="underline"></div>
+                  <p>After learning about cryptocurrencies and investing, I
+                  became curious about implementing a trading bot that would
+                  look at real-world market data and purchase/sell coins and
+                  stocks based on an analysis of the incoming data.</p>
+                  <br>
+                  <p>Crypto bot is a simple program that looks at certain markers
+                  like moving averages and support lines and attempts to time
+                  market trades. Naturally, for real-time data, I had to tie
+                  into a web API and access some data from the FTX exchange
+                  and other cryptocurrency exchanges. This was the largest
+                  part of the project, as I have never used an API before,
+                  but they are certainly useful, and there may be more projects
+                  involving APIs to come. </p>
+                </div>
+              </li>
+
+            </ol>
+          </div>
+
+          <div class="footerWrapper" id="socialMediaWrapper">
+            <div class="subFooterWrapper">
+              <ul class="iconWrapper" id="footerIconWrapper">
+                <li>
+                  <a href="https://github.com/dcormican14" target="_blank" rel="noopener noreferrer">
+                  <img src="./img/github2.png" alt="githubIcon"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/dylan_cormican/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/instagram2.png" alt="instagramIcon"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/dylan-cormican-137b341b6/" target="_blank" rel="noopener noreferrer">
+                  <img src="./img/linkedin2.png" alt="linkedInIcon"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="filler", id="bottomPadding"></div>
+
+        </main>
+
+      </div>
     </div>
-
-    <div class="about-past">
-      <h2>About Tic-Tac-Toe</h2>
-      <img src="./img/tictactoe.png" alt="tictactoepic">
-      <p>This is my first major project at Colorado School of Mines. The program allows the user to play a game against a second player, or against
-      some gaming logic that I have designed. While the concept is rudamentory, The application uses recursion and simple algorithms to function,
-      making it slightly more interesting than your average text-based game.</p>
-      <p>To run it, you can find my files on my GitHub under the "TicTacToe" repository, and you can run it with PyCharm or a similar text editor.</p>
-    </div>
-
-    <br>
-
-    <div class="about-past">
-      <h2>Mountain Parks Electric Internship</h2>
-      <img src="./img/MPEI.jpg" alt="MPEI">
-      <p>Here, I had my first real world tech experience outide of Colorado School of Mines. I helped the company as an intern for the IT department.
-      From day one, I was working on learning and applying various concepts such as onboarding scripting, server management, helpdesk tasks, security
-      implementation and more.</p>
-      <p>The two main contributions I made to the company at my time there involved Duo Security and onboard scripting. By the time my three months there
-      were up, I had the opportunity to research wich two factor authentication method was the best and most accessible in the industry, and I began the
-      implementation process for the office. Secondly, I contributed to the team by writing an onboarding script for them that took all of the necessary
-      application softwares and loaded them on to the computer with the correct specifications. This greatly increased productivity by reducing the new
-      computer setup time from about two hours to roughly twenty minutes.</p>
-      <p>All in all, I had a great time at Mountain Parks, and I learned so much in the field of information technologies.</p>
-    </div>
-
-    <br>
-
-
-    <div class="about-past">
-      <h2>About Crypto Bot</h2>
-      <img src="./img/crypto.jpg" alt="tictactoepic">
-      <p>After learning about cryptocurrencies and investing, I decided to build an autonomous crypto trading bot. It is a simple program
-      that uses Python Websockets and the FTX exchange API to determine when to invest in the market and when to take out the money. Through this project,
-      I learned how web APIs work and how to tie into them with personal code.</p>
-      <p>I will be uploading the code to GitHub when I clean it up and remove my personal information from it.</p>
-    </div>
-
-
-    <footer>
-      <p class = "bottomtext">Created by Dylan Cormican  ⚫ 2021</p>
-    </footer>
   </body>
 </html>
