@@ -16,14 +16,13 @@ header a{
   margin-left: auto;
   margin-right: auto;
   color: #ad8961;
-  font-family: "Brush Script MT";
-  font-size: 62px;
-
+  font-family: 'rush_of_the_geisharegular';
+  font-size: 52px;
 }
 nav{
   background-color: #ad8961;
   position: sticky;
-  top: 106px;
+  top: 90px;
   max-width: 100%;
   padding: 20px;
 }
