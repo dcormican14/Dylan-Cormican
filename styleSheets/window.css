@@ -34,9 +34,29 @@
   main ol li{
     display: block !important;
   }
+  main ol li div .pictureWrapper{
+    display: flex;
+  }
   main ol li img{
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px !important;
   }
+  main ol li h1{
+    text-align: center;
+  }
+  main ol li h2{
+    text-align: center;
+  }
+  main ol li p{
+    text-align: center;
+  }
+  main ol li .underline{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 @media screen and (max-width: 400px){
   .footerWrapper .iconWrapper li{

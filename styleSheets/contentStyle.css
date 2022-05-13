@@ -32,7 +32,6 @@ main .underline{
   border-radius: 2px;
 }
 main .pictureWrapper{
-  padding-right: 12px;
   display: flex;
 }
 main ol li img{
@@ -41,4 +40,5 @@ main ol li img{
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 6px;
+  padding-right: 12px;
 }
