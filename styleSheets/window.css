@@ -1,4 +1,7 @@
 @media screen and (max-width: 650px){
+  header img{
+    display: none !important;
+  }
   nav li a{
     font-size: 17px;
   }
