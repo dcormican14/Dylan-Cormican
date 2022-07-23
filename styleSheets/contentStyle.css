@@ -5,12 +5,15 @@ main ol{
   margin-bottom: 20px;
 }
 main ol li{
-  background-color: #e5ecea;
+  background-color: #c9d2d4;
   padding: 12px;
   margin-bottom: 36px;
   border-radius: 6px;
   display: flex;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,.5);
+}
+main ol li .titleText{
+  color: #4A2D1F;
 }
 main .titleText{
   color: #292826;
@@ -24,7 +27,7 @@ main .resumeContent{
   padding-left: 6px;
 }
 main .underline{
-  background-color: #ad8961;
+  background-color: #4A2D1F;
   height: 2px;
   max-width: 280px;
   margin-bottom: 6px;
@@ -41,4 +44,10 @@ main ol li img{
   margin-bottom: auto;
   border-radius: 6px;
   padding-right: 12px;
+}
+main div .indivIconWrapper{
+  background-color: #c9d2d4;
+  padding: 4px;
+  border-radius: 100%;
+  box-shadow: 2px 2px 4px 2px rgba(0,0,0,.5);
 }

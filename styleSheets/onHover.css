@@ -1,9 +1,9 @@
 header a:hover{
   transition: all 1.0s ease;
-  color: #e5ecea;
+  color: #e0e9e8;
 }
 nav .navBarItem:hover{
-  background-color: #96744e;
+  background-color: #6d8084;
 }
 
 .iconWrapper li a img:hover{

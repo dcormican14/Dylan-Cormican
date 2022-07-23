@@ -1,6 +1,6 @@
 header{
   z-index: 1;
-  background-color: #292826;
+  background-color: #341f16;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,16 +15,16 @@ header a{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: #ad8961;
+  color: #c9d2d4;
   font-family: 'rush_of_the_geisharegular';
   font-size: 52px;
 }
 nav{
-  background-color: #ad8961;
+  background-color: #798e93;
   position: sticky;
   top: 90px;
   max-width: 100%;
-  padding: 20px;
+  padding: 10px 0 7px 0;
 }
 nav .navBarMenu{
   display: flex;
@@ -46,15 +46,14 @@ nav .navBarItem{
   padding: 2px 4px 2px 4px;
   margin: 0 6px 0 6px;
   border-radius: 5px;
-  color: #e5ecea;
+  color: #e0e9e8;
   border-radius: 5px;
 }
 nav .navBarItemActive{
   text-decoration: none;
   padding: 2px 4px 2px 4px;
   margin: 0 6px 0 6px;
-  color: #e5ecea;
-  /* border: 2px solid #e5ecea; */
-  background-color: #bda080;
+  color: #e0e9e8;
+  background-color: #617276;
   border-radius: 5px;
 }
