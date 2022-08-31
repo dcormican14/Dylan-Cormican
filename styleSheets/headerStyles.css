@@ -30,9 +30,9 @@ header a{
 nav{
   background-color: #798e93;
   position: sticky;
-  top: 90px;
+  top: 95px;
   max-width: 100%;
-  padding: 10px 0 7px 0;
+  padding: 5px 0 5px 0;
 }
 nav .navBarMenu{
   display: flex;
