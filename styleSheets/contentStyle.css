@@ -3,6 +3,7 @@ main ol{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  margin-top: 168px;
 }
 main ol li{
   background-color: #c9d2d4;
@@ -14,25 +15,21 @@ main ol li{
 }
 main ol li .titleText{
   color: #4A2D1F;
+  font-size: 36px;
+  padding-bottom: 24px;
 }
 main .titleText{
   color: #292826;
-  font-size: 22px;
+  font-size: 24px;
 }
 main .subtitleText{
   color: #292826;
+  padding-bottom: 12px;
+  font-size: 24px;
+}
+.dateContent {
+  color: #798e93;
   font-size: 16px;
-}
-main .resumeContent{
-  padding-left: 6px;
-}
-main .underline{
-  background-color: #4A2D1F;
-  height: 2px;
-  max-width: 280px;
-  margin-bottom: 6px;
-  margin-top: 4px;
-  border-radius: 2px;
 }
 main .pictureWrapper{
   display: flex;

@@ -33,21 +33,87 @@
           </div>
         </header>
 
-        <nav class="navigation" id="navBar">
-          <div class="navBarMenu">
-            <ul class="navBarCollection">
-              <li><a class="navBarItem" href="./index.html">Home</a></li>
-              <li><a class="navBarItem" href="./blog.html">Blog</a></li>
-              <li><a class="navBarItemActive" href="./projects.html">Projects</a></li>
-              <li><a class="navBarItem" href="./resume.html">Resume</a></li>
-              <li><a class="navBarItem" href="./contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
+        <div class="navBarWrapper">
+          <nav class="navigation" id="navBar">
+            <div class="navBarMenu">
+              <ul class="navBarCollection">
+                <li><a class="navBarItem" href="./index.html">Home</a></li>
+                <li><a class="navBarItem" href="./blog.html">Blog</a></li>
+                <li><a class="navBarItemActive" href="./projects.html">Projects</a></li>
+                <li><a class="navBarItem" href="./resume.html">Resume</a></li>
+                <li><a class="navBarItem" href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        
 
         <main>
           <div class="postWrapper" id="mainPosts">
             <ol>
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="./img/recipe_box.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Recipe Box</h1>
+                  <div class="underline"></div>
+                  <p>
+                    One of my pet peeves is always when you go to look
+                    up a recipe, every link that you click on has a 
+                    full blog and ads, which make finding the recipe
+                    difficult, arduous, and in some cases, impossible.
+                  </p>
+                  <br>
+                  <p>
+                    With this project, I was able to overcome this difficulty
+                    and make a fully ad-free and blog-free web application.
+                    Not only does it allow users to find recipes, it has
+                    functionality for customers to be able to add their own 
+                    recipes and save the ones they like.
+                  </p>
+                  <br>
+                  <p>
+                    This has been my favorite project so far, and the one
+                    where I have learned the most. For the website, I built
+                    a REST API from scratch, used Docker containers to hold
+                    both the backend and frontend, used MongoDB to store
+                    the recipe data along with user-added recipes, and hosted
+                    it through Google Domains via Google Cloud Run. All in all,
+                    I learned so much about full-stack web applications, and I
+                    enjoyed creating a website that provided users with a
+                    legitimate and usable service.
+                  </p>
+                </div>
+              </li>
+
+              <li class="basicPosts">
+                <div class="pictureWrapper">
+                  <img src="./img/lotr.jpg" alt="postOnePic">
+                </div>
+                <div class="contentWrapper" id="mainPostContent">
+                  <h1 class="titleText">Clue: Lord of the Rings</h1>
+                  <div class="underline"></div>
+                  <p>
+                    This project was a fun way to use graphics in Java
+                    to be able to play the Clue board game. This project
+                    took several months to make, but after adding in the
+                    map from Lord of the Rings, some sound for ambiance, 
+                    and some extra flavor with the characters, weapons, 
+                    and rooms, I had an online Lord of the Rings Clue game.
+                  </p>
+                  <br>
+                  <p>
+                    The coding itself was fun, and I was able to practice
+                    unit testing, revisit my first language of Java, 
+                    and brush up on my object-oriented programming. The only
+                    part that I would warn against is that the rules of
+                    Clue are very complicated and difficult to code into a
+                    video game. Regardless, the challenge was accepted and
+                    very interesting to pursue.
+                  </p>
+                </div>
+              </li>
 
               <li class="basicPosts">
                 <div class="pictureWrapper">
@@ -152,7 +218,7 @@
           </div>
 
           <div class="filler", id="bottomPadding", style="width: 100%;">
-            <img src="./img/dreamscape.png" alt="bottomBanner", style="position: fixed; width: 100%; bottom: 0; left: 0; z-index: -1">
+            <img src="./img/dreamscape_altered.png" alt="bottomBanner", style="position: fixed; width: 100%; bottom: 0; left: 0; z-index: -1">
           </div>
 
         </main>
